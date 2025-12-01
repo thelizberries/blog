@@ -1,20 +1,12 @@
 ﻿title: "The Lizards Blog"
 description: "Novità, dietro le quinte e curiosità dal mondo The Lizards"
-baseurl: ""
 url: "https://blog.thelizards.it"
-
-# Autore
 author:
   name: "The Lizards Team"
-  email: "info@thelizards.it"
-
-# Build settings
-markdown: kramdown
+  email: "thelizards@thelizards.it"
 theme: minima
 show_excerpts: true
 lang: it_IT
-permalink: /:year/:month/:day/:title/
-timezone: Europe/Rome
 
 # Impostazioni di paginazione
 paginate: 5
@@ -23,11 +15,8 @@ paginate_path: "/page:num/"
 sass:
   style: compressed
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-paginate
 
 # Default settings
 defaults:
@@ -39,24 +28,4 @@ defaults:
       layout: post
       lang: "it"
 
-# Exclude da build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .bundle
-  - .git
-  - .github
-  - README.md
-  - RIPRISTINO.md
-  - workers
-  - wrangler.toml
-  - guida.html
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+#test
