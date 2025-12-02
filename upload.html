@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editor Blog The Lizards</title>
+    <title>Editor Blog Lizberries</title>
     <style>
         * {
             margin: 0;
@@ -342,7 +342,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>🎸 Editor Blog The Lizards</h1>
+            <h1>🎸 Editor Blog Lizberries</h1>
             <p>Crea e pubblica post in un solo posto</p>
         </header>
         
@@ -362,7 +362,7 @@
                     <div class="image-preview" id="imagePreview">
                         <p style="color: #999;">Seleziona un'immagine per vedere l'anteprima</p>
                     </div>
-                    <p class="help-text">Formati: JPG, PNG. L'immagine verrÃ  ottimizzata automaticamente (max 900x600px, WebP ~30-40KB)</p>
+                    <p class="help-text">Formati: JPG, PNG. L'immagine verrà ottimizzata automaticamente (max 900x600px, WebP ~30-40KB)</p>
                 </div>
                 
                 <!-- METADATI POST -->
@@ -379,7 +379,7 @@
                 
                 <!-- EDITOR CONTENUTO -->
                 <div class="form-group">
-                    <label for="content">âœï¸ Contenuto del Post *</label>
+                    <label for="content">✍️ Contenuto del Post *</label>
                     <div class="toolbar">
                         <button type="button" onclick="insertMarkdown('**', '**')" title="Grassetto"><strong>B</strong></button>
                         <button type="button" onclick="insertMarkdown('*', '*')" title="Corsivo"><em>I</em></button>
@@ -444,7 +444,7 @@ Vi aspettiamo numerosi! 🎵"></textarea>
                     </div>
                     <img id="previewImage" class="post-image" style="display: none;" src="" alt="">
                     <div class="post-body" id="previewBody">
-                        <p style="color: #999; font-style: italic;">L'anteprima apparirÃ  qui mentre scrivi...</p>
+                        <p style="color: #999; font-style: italic;">L'anteprima apparirà qui mentre scrivi...</p>
                     </div>
                 </div>
             </div>
@@ -453,7 +453,7 @@ Vi aspettiamo numerosi! 🎵"></textarea>
     
     <script>
         // CONFIGURAZIONE
-        const CLOUDFLARE_WORKER_URL = 'https://thelizards-blog-upload.lizberries.workers.dev';
+        const CLOUDFLARE_WORKER_URL = 'https://lizberries-blog-upload.lizberries.workers.dev';
         
         // Auto-update preview
         document.getElementById('title').addEventListener('input', updatePreview);
@@ -478,7 +478,7 @@ Vi aspettiamo numerosi! 🎵"></textarea>
                         <p style="color: #28a745; font-weight: bold;">✅ Immagine selezionata</p>
                         <p style="font-size: 0.9em;">${file.name} (${(file.size / 1024).toFixed(1)} KB)</p>
                         <img src="${e.target.result}" alt="Preview">
-                        <p style="font-size: 0.85em; color: #666; margin-top: 10px;">VerrÃ  caricata come: ${selectedImageName}</p>
+                        <p style="font-size: 0.85em; color: #666; margin-top: 10px;">Verrà caricata come: ${selectedImageName}</p>
                     `;
                     preview.classList.add('has-image');
                     
@@ -552,7 +552,7 @@ Vi aspettiamo numerosi! 🎵"></textarea>
                 document.getElementById('previewBody').innerHTML = html;
             } else {
                 document.getElementById('previewBody').innerHTML = 
-                    '<p style="color: #999; font-style: italic;">L\'anteprima apparirÃ  qui mentre scrivi...</p>';
+                    '<p style="color: #999; font-style: italic;">L\'anteprima apparirà qui mentre scrivi...</p>';
             }
         }
         
@@ -723,4 +723,3 @@ Vi aspettiamo numerosi! 🎵"></textarea>
     </script>
 </body>
 </html>
-
