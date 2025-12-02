@@ -342,22 +342,22 @@
 <body>
     <div class="container">
         <header>
-            <h1>ðŸŽ¸ Editor Blog The Lizards</h1>
+            <h1>🎸 Editor Blog The Lizards</h1>
             <p>Crea e pubblica post in un solo posto</p>
         </header>
         
         <div class="main-content">
             <!-- PANNELLO EDITOR -->
             <div class="editor-panel">
-                <h2 class="section-title">âœï¸ Scrivi il tuo Post</h2>
+                <h2 class="section-title">✏️ Scrivi il tuo Post</h2>
                 
                 <div class="alert alert-info">
-                    <strong>ðŸ’¡ Come funziona:</strong> Compila i campi, vedi l'anteprima in tempo reale. Quando sei pronto, inserisci la password e pubblica tutto insieme!
+                    <strong>💡 Come funziona:</strong> Compila i campi, vedi l'anteprima in tempo reale. Quando sei pronto, inserisci la password e pubblica tutto insieme!
                 </div>
                 
                 <!-- UPLOAD IMMAGINE -->
                 <div class="form-group">
-                    <label for="image">ðŸ“¸ Immagine del Post (opzionale)</label>
+                    <label for="image">📸 Immagine del Post (opzionale)</label>
                     <input type="file" id="image" accept="image/jpeg,image/jpg,image/png">
                     <div class="image-preview" id="imagePreview">
                         <p style="color: #999;">Seleziona un'immagine per vedere l'anteprima</p>
@@ -367,14 +367,14 @@
                 
                 <!-- METADATI POST -->
                 <div class="form-group">
-                    <label for="title">ðŸ“Œ Titolo del Post *</label>
+                    <label for="title">📌 Titolo del Post *</label>
                     <input type="text" id="title" placeholder="es: Nuovo Concerto a Milano" required>
                 </div>
                 
                 <div class="form-group">
-                    <label for="date">ðŸ“… Data di Pubblicazione *</label>
+                    <label for="date">📅 Data di Pubblicazione *</label>
                     <input type="date" id="date" required>
-                    <p class="help-text">â° Puoi impostare una data futura per programmare la pubblicazione</p>
+                    <p class="help-text">⏰ Puoi impostare una data futura per programmare la pubblicazione</p>
                 </div>
                 
                 <!-- EDITOR CONTENUTO -->
@@ -385,9 +385,9 @@
                         <button type="button" onclick="insertMarkdown('*', '*')" title="Corsivo"><em>I</em></button>
                         <button type="button" onclick="insertMarkdown('## ', '')" title="Titolo H2">H2</button>
                         <button type="button" onclick="insertMarkdown('### ', '')" title="Titolo H3">H3</button>
-                        <button type="button" onclick="insertMarkdown('[', '](url)')" title="Link">ðŸ”— Link</button>
-                        <button type="button" onclick="insertMarkdown('- ', '')" title="Lista">â€¢ Lista</button>
-                        <button type="button" onclick="insertMarkdown('<!--more-->\n\n', '')" title="Separa anteprima">âœ‚ï¸ Anteprima</button>
+                        <button type="button" onclick="insertMarkdown('[', '](url)')" title="Link">🔗 Link</button>
+                        <button type="button" onclick="insertMarkdown('- ', '')" title="Lista">• Lista</button>
+                        <button type="button" onclick="insertMarkdown('<!--more-->\n\n', '')" title="Separa anteprima">✂️ Anteprima</button>
                     </div>
                     <textarea id="content" placeholder="Scrivi qui il contenuto del post usando Markdown...
 
@@ -404,18 +404,18 @@ Il **20 dicembre 2025** saremo al Fabrique di Milano per una serata speciale ded
 - **Luogo**: Fabrique, Milano  
 - **Biglietti**: Disponibili su TicketOne
 
-Vi aspettiamo numerosi! ðŸŽµ"></textarea>
+Vi aspettiamo numerosi! 🎵"></textarea>
                     <p class="help-text">
-                        ðŸ’¡ Usa <code>&lt;!--more--&gt;</code> per separare l'anteprima dal resto del contenuto. <br>
+                        💡 Usa <code>&lt;!--more--&gt;</code> per separare l'anteprima dal resto del contenuto. <br>
                         Usa <strong>**testo**</strong> per grassetto, <em>*testo*</em> per corsivo, <code>## Titolo</code> per i titoli.
                     </p>
                 </div>
                 
                 <!-- SEZIONE PUBBLICAZIONE -->
                 <div class="publish-section">
-                    <h3>ðŸš€ Pubblica</h3>
+                    <h3>🚀 Pubblica</h3>
                     <div class="form-group">
-                        <label for="password">ðŸ” Password</label>
+                        <label for="password">🔐 Password</label>
                         <input type="password" id="password" placeholder="Inserisci la password per pubblicare">
                         <p class="help-text">Richiedi la password al team tecnico se non ce l'hai</p>
                     </div>
@@ -428,19 +428,19 @@ Vi aspettiamo numerosi! ðŸŽµ"></textarea>
                     <div id="message"></div>
                     
                     <button class="publish-btn" id="publishBtn" onclick="publishPost()">
-                        ðŸ“¤ Pubblica Post + Immagine
+                        📤 Pubblica Post + Immagine
                     </button>
                 </div>
             </div>
             
             <!-- PANNELLO PREVIEW -->
             <div class="preview-panel">
-                <h2 class="section-title">ðŸ‘ï¸ Anteprima</h2>
+                <h2 class="section-title">👁️ Anteprima</h2>
                 
                 <div class="preview-content" id="previewContent">
                     <h1 id="previewTitle">Titolo del Post</h1>
                     <div class="post-meta">
-                        ðŸ“… <span id="previewDate">--/--/----</span>
+                        📅 <span id="previewDate">--/--/----</span>
                     </div>
                     <img id="previewImage" class="post-image" style="display: none;" src="" alt="">
                     <div class="post-body" id="previewBody">
@@ -475,7 +475,7 @@ Vi aspettiamo numerosi! ðŸŽµ"></textarea>
                 reader.onload = function(e) {
                     const preview = document.getElementById('imagePreview');
                     preview.innerHTML = `
-                        <p style="color: #28a745; font-weight: bold;">âœ… Immagine selezionata</p>
+                        <p style="color: #28a745; font-weight: bold;">✅ Immagine selezionata</p>
                         <p style="font-size: 0.9em;">${file.name} (${(file.size / 1024).toFixed(1)} KB)</p>
                         <img src="${e.target.result}" alt="Preview">
                         <p style="font-size: 0.85em; color: #666; margin-top: 10px;">VerrÃ  caricata come: ${selectedImageName}</p>
@@ -545,7 +545,7 @@ Vi aspettiamo numerosi! ðŸŽµ"></textarea>
                     const parts = html.split('<!--more-->');
                     html = parts[0] + 
                            '<hr style="margin: 30px 0; border: 2px solid #667eea;">' +
-                           '<p style="color: #667eea; font-style: italic;">â†“ Contenuto completo â†“</p>' +
+                           '<p style="color: #667eea; font-style: italic;">↓ Contenuto completo ↓</p>' +
                            parts[1];
                 }
                 
@@ -683,11 +683,11 @@ Vi aspettiamo numerosi! ðŸŽµ"></textarea>
                 
                 // Success!
                 showMessage(
-                    `âœ… <strong>Post pubblicato con successo!</strong><br><br>` +
-                    `ðŸ“„ File: <code>${postFilename}</code><br>` +
-                    (imageWebpName ? `ðŸ–¼ï¸ Immagine: <code>${imageWebpName}</code><br>` : '') +
-                    `<br>â³ Il post apparirÃ  sul blog tra 1-2 minuti.<br>` +
-                    `ðŸŒ Dopo altri 1-2 minuti sarÃ  tradotto automaticamente in inglese.`,
+                    `✅ <strong>Post pubblicato con successo!</strong><br><br>` +
+                    `📄 File: <code>${postFilename}</code><br>` +
+                    (imageWebpName ? `🖼️ Immagine: <code>${imageWebpName}</code><br>` : '') +
+                    `<br>⏳ Il post apparirà sul blog tra 1-2 minuti.<br>` +
+                    `🌍 Dopo altri 1-2 minuti sarà tradotto automaticamente in inglese.`,
                     'success'
                 );
                 
@@ -705,7 +705,7 @@ Vi aspettiamo numerosi! ðŸŽµ"></textarea>
                 
             } catch (error) {
                 console.error('Publish error:', error);
-                showMessage(`âŒ <strong>Errore:</strong> ${error.message}`, 'error');
+                showMessage(`❌ <strong>Errore:</strong> ${error.message}`, 'error');
             } finally {
                 publishBtn.disabled = false;
                 document.getElementById('loading').classList.remove('active');
