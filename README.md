@@ -1,36 +1,36 @@
-﻿# The Lizards Blog - Guida per la Creazione dei Post
+# Lizberries Blog - Guida per la Creazione dei Post
 
-Benvenuto nella guida per creare e pubblicare post sul blog dei The Lizards! Questa guida ti accompagnerÃ  passo dopo passo nella creazione di nuovi articoli.
-
----
-
-## ðŸ“‘ Indice
-
-- [âš¡ Guida Rapida](#-guida-rapida---per-chi-non-Ã¨-pratico-di-github)
-- [ðŸ“¸ Caricamento Immagini](#-per-aggiungere-immagini)
-
-- [ðŸ“ Struttura del Blog](#-struttura-del-blog-per-utenti-tecnici)
-- [ðŸš€ Come Creare un Nuovo Post](#-come-creare-un-nuovo-post)
-- [ðŸ–¼ï¸ Gestione delle Immagini](#ï¸-gestione-delle-immagini)
-- [ðŸ“¤ Pubblicare il Post](#-pubblicare-il-post)
-- [ðŸŒ Traduzione Automatica](#-traduzione-automatica-e-sincronizzazione)
-- [âœï¸ Formattazione Markdown](#ï¸-formattazione-markdown)
-- [ðŸ”„ Workflow Completo](#-workflow-completo)
-- [â“ Domande Frequenti](#-domande-frequenti)
-- [ðŸ›¡ï¸ Backup e Ripristino](#ï¸-backup-e-ripristino)
-- [ðŸ”§ Informazioni Tecniche](#-informazioni-tecniche-solo-per-amministratori)
+Benvenuto nella guida per creare e pubblicare post sul blog dei Lizberries! Questa guida ti accompagnerà passo dopo passo nella creazione di nuovi articoli.
 
 ---
 
-## âš¡ GUIDA RAPIDA - Per chi non Ã¨ pratico di GitHub
+## 📑 Indice
 
-**Il modo piÃ¹ semplice per scrivere e pubblicare un post:**
+- [⚡ Guida Rapida](#-guida-rapida---per-chi-non-è-pratico-di-github)
+- [📸 Caricamento Immagini](#-per-aggiungere-immagini)
 
-### Metodo 1: Editor Unificato (CONSIGLIATO) ðŸŽ¯
+- [📝 Struttura del Blog](#-struttura-del-blog-per-utenti-tecnici)
+- [🚀 Come Creare un Nuovo Post](#-come-creare-un-nuovo-post)
+- [🖼️ Gestione delle Immagini](#️-gestione-delle-immagini)
+- [📤 Pubblicare il Post](#-pubblicare-il-post)
+- [🌐 Traduzione Automatica](#-traduzione-automatica-e-sincronizzazione)
+- [✏️ Formattazione Markdown](#️-formattazione-markdown)
+- [🔄 Workflow Completo](#-workflow-completo)
+- [❓ Domande Frequenti](#-domande-frequenti)
+- [🛡️ Backup e Ripristino](#️-backup-e-ripristino)
+- [🔧 Informazioni Tecniche](#-informazioni-tecniche-solo-per-amministratori)
+
+---
+
+## ⚡ GUIDA RAPIDA - Per chi non è pratico di GitHub
+
+**Il modo più semplice per scrivere e pubblicare un post:**
+
+### Metodo 1: Editor Unificato (CONSIGLIATO) 🎯
 
 **Crea post e carica immagini in un solo posto!**
 
-1. **Vai su**: https://blog.The Lizards.thelizards.it/upload.html
+1. **Vai su**: https://blog.lizberries.thelizards.it/upload.html
 2. **Carica l'immagine** (opzionale):
    - Seleziona un file `.jpg`, `.jpeg` o `.png`
    - Vedrai l'anteprima dell'immagine
@@ -44,7 +44,7 @@ Benvenuto nella guida per creare e pubblicare post sul blog dei The Lizards! Que
 6. **Clicca "Pubblica Post + Immagine"**
 7. **Fatto!** Il post e l'immagine vengono caricati insieme
 
-âœ… **Vantaggi**:
+✅ **Vantaggi**:
 - Tutto in un solo posto
 - Anteprima live mentre scrivi
 - Nessun account GitHub necessario
@@ -55,7 +55,7 @@ Benvenuto nella guida per creare e pubblicare post sul blog dei The Lizards! Que
 
 ### Metodo 2: Prose.io (per modificare post esistenti)
 
-Usa questo metodo solo se devi **modificare un post giÃ  pubblicato**:
+Usa questo metodo solo se devi **modificare un post già pubblicato**:
 
 1. **Vai su** https://prose.io/
 2. **Clicca "Authorize on GitHub"** e fai login
@@ -63,22 +63,22 @@ Usa questo metodo solo se devi **modificare un post giÃ  pubblicato**:
 4. **Clicca sulla cartella "_posts"**
 5. **Clicca sul post** che vuoi modificare
 6. **Modifica il contenuto**
-7. **Clicca "Save"** (ðŸ’¾ in alto a destra)
+7. **Clicca "Save"** (💾 in alto a destra)
 
 ---
 
-**â±ï¸ Tempi di pubblicazione:**
-- Il post appare sul blog italiano in 1-2 minuti (se la data Ã¨ oggi o passata)
+**⏱️ Tempi di pubblicazione:**
+- Il post appare sul blog italiano in 1-2 minuti (se la data è oggi o passata)
 - Dopo altri 1-2 minuti appare tradotto automaticamente sul blog inglese
 - **Post programmati**: I post con data futura verranno pubblicati automaticamente il giorno indicato
 
 ---
 
-## ðŸ“¸ Caricamento Immagini (Metodo Manuale)
+## 📸 Caricamento Immagini (Metodo Manuale)
 
 Se preferisci caricare solo le immagini separatamente (senza creare il post):
 
-1. **Vai al link**: https://blog.The Lizards.thelizards.it/upload.html
+1. **Vai al link**: https://blog.lizberries.thelizards.it/upload.html
 2. **Inserisci la password** (chiedila al team tecnico)
 3. **Seleziona l'immagine** (formati supportati: `.jpg`, `.jpeg`, `.png`)
 4. **Clicca "Carica Immagine"**
@@ -89,13 +89,13 @@ Se preferisci caricare solo le immagini separatamente (senza creare il post):
 
 ## DOCUMENTAZIONE PER UTENTI TECNICI 
 
-## ðŸ“ Struttura del Blog
+## 📝 Struttura del Blog
 
-Il blog Ã¨ costruito con Jekyll e GitHub Pages. I post vengono scritti in formato Markdown e pubblicati automaticamente su:
-- **Blog Italiano**: https://blog.The Lizards.thelizards.it
-- **Blog Inglese**: https://blog-en.The Lizards.thelizards.it (tradotto automaticamente)
+Il blog è costruito con Jekyll e GitHub Pages. I post vengono scritti in formato Markdown e pubblicati automaticamente su:
+- **Blog Italiano**: https://blog.lizberries.thelizards.it
+- **Blog Inglese**: https://blog-en.lizberries.thelizards.it (tradotto automaticamente)
 
-## ðŸš€ Come Creare un Nuovo Post
+## 🚀 Come Creare un Nuovo Post
 
 ### 1. Creare il File del Post
 
@@ -107,7 +107,7 @@ YYYY-MM-DD-titolo-del-post.md
 
 **Esempio**: `2025-11-15-nuovo-concerto-milano.md`
 
-âš ï¸ **Importante**: 
+⚠️ **Importante**: 
 - La data deve essere in formato `YYYY-MM-DD` (anno-mese-giorno)
 - Il titolo deve usare trattini `-` al posto degli spazi
 - L'estensione deve essere `.md`
@@ -164,13 +164,13 @@ Il tag `<!--more-->` separa l'anteprima (excerpt) dal resto del contenuto:
 - Il testo **prima** del tag, seguito da una riga di spazio, appare nella home del blog come anteprima
 - Il testo **dopo** il tag appare solo nell'articolo completo
 
-## ðŸ–¼ï¸ Gestione delle Immagini
+## 🖼️ Gestione delle Immagini
 
 ### Caricare Immagini - Metodo Form di Upload (Consigliato)
 
-**Il modo piÃ¹ semplice per caricare immagini:**
+**Il modo più semplice per caricare immagini:**
 
-1. **Vai su**: https://blog.The Lizards.thelizards.it/upload.html
+1. **Vai su**: https://blog.lizberries.thelizards.it/upload.html
 2. **Inserisci la password** (richiedila al team tecnico se non ce l'hai)
 3. **Seleziona l'immagine** dal tuo computer
    - Formati supportati: `.jpg`, `.jpeg`, `.png`
@@ -185,7 +185,7 @@ Il tag `<!--more-->` separa l'anteprima (excerpt) dal resto del contenuto:
 7. **Copia il nome WebP** mostrato nel messaggio di successo (es: `concerto-milano-2025.webp`)
 8. **Usa nel post** il percorso: `/assets/images/posts/concerto-milano-2025.webp`
 
-âœ… **Vantaggi**:
+✅ **Vantaggi**:
 - Non serve account GitHub
 - Interfaccia semplice e intuitiva
 - Anteprima prima del caricamento
@@ -216,9 +216,9 @@ Il tag `<!--more-->` separa l'anteprima (excerpt) dal resto del contenuto:
 
 ### Immagine di Default
 
-Se non specifichi un'immagine, verrÃ  usato automaticamente il logo dei The Lizards.
+Se non specifichi un'immagine, verrà usato automaticamente il logo dei Lizberries.
 
-## ðŸ“¤ Pubblicare il Post
+## 📤 Pubblicare il Post
 
 ### Metodo 1: Tramite Git (Command Line)
 
@@ -244,18 +244,18 @@ Se non specifichi un'immagine, verrÃ  usato automaticamente il logo dei The Li
 
 ### Metodo 2: Tramite GitHub Web Interface
 
-1. Vai su https://github.com/theThe Lizards/blog
+1. Vai su https://github.com/thelizberries/blog
 2. Naviga nella cartella `_posts/`
-3. Clicca su "Add file" â†’ "Upload files"
+3. Clicca su "Add file" → "Upload files"
 4. Carica il file `.md` del post
 5. Scrivi un messaggio di commit
 6. Clicca su "Commit changes"
 
-## ðŸŒ Traduzione Automatica e Sincronizzazione
+## 🌐 Traduzione Automatica e Sincronizzazione
 
 Quando lavori con i post in italiano, il sistema gestisce **automaticamente** la traduzione e la sincronizzazione con il blog inglese.
 
-### âœ¨ Creazione di un Nuovo Post
+### ✨ Creazione di un Nuovo Post
 
 Quando pubblichi un post in italiano:
 
@@ -269,9 +269,9 @@ Quando pubblichi un post in italiano:
    - Immagini copiate in `assets/images/posts/`
    - Campo `original_file` che traccia il post italiano di origine
 
-â±ï¸ La traduzione richiede circa 1-2 minuti dopo il push.
+⏱️ La traduzione richiede circa 1-2 minuti dopo il push.
 
-### ðŸ”„ Modifica di un Post Esistente
+### 🔄 Modifica di un Post Esistente
 
 **Tutto viene aggiornato automaticamente!** Quando modifichi un post italiano esistente:
 
@@ -284,27 +284,27 @@ Quando pubblichi un post in italiano:
    - Immagini aggiornate (se le hai cambiate)
 
 **Esempi:**
-- Modifichi solo il **contenuto** â†’ il post inglese viene aggiornato mantenendo stesso nome
-- Modifichi il **titolo** â†’ il post inglese viene rinominato con il nuovo slug tradotto
-- Modifichi la **data** nel filename â†’ il post inglese viene rinominato con la nuova data
-- Modifichi **tutto insieme** â†’ il post inglese viene completamente rigenerato
+- Modifichi solo il **contenuto** → il post inglese viene aggiornato mantenendo stesso nome
+- Modifichi il **titolo** → il post inglese viene rinominato con il nuovo slug tradotto
+- Modifichi la **data** nel filename → il post inglese viene rinominato con la nuova data
+- Modifichi **tutto insieme** → il post inglese viene completamente rigenerato
 
-âš ï¸ **Importante**: Il sistema usa il campo `original_file` nel front matter del post inglese per tracciare quale post italiano corrisponde. Anche se cambi titolo o data, il sistema trova sempre il post inglese corretto da aggiornare.
+⚠️ **Importante**: Il sistema usa il campo `original_file` nel front matter del post inglese per tracciare quale post italiano corrisponde. Anche se cambi titolo o data, il sistema trova sempre il post inglese corretto da aggiornare.
 
-### ðŸ—‘ï¸ Cancellazione di un Post
+### 🗑️ Cancellazione di un Post
 
 Quando elimini un post italiano:
 
 1. Il post inglese corrispondente viene **cancellato automaticamente**
 2. Le **immagini associate** vengono **cancellate automaticamente** sia dal blog italiano che da quello inglese
-3. **SOLO SE** l'immagine non Ã¨ usata in altri post (controllo di sicurezza)
+3. **SOLO SE** l'immagine non è usata in altri post (controllo di sicurezza)
 
 **Gestione Intelligente delle Immagini:**
-- Se un'immagine Ã¨ referenziata da piÃ¹ post, viene mantenuta anche se ne elimini uno
-- Vengono cancellate solo le immagini che non sono piÃ¹ utilizzate da nessun post
+- Se un'immagine è referenziata da più post, viene mantenuta anche se ne elimini uno
+- Vengono cancellate solo le immagini che non sono più utilizzate da nessun post
 - La cancellazione avviene in entrambi i repository (italiano e inglese)
 
-### ðŸ“¸ Sincronizzazione delle Immagini
+### 📸 Sincronizzazione delle Immagini
 
 **Le immagini vengono gestite automaticamente!** Non devi copiarle manualmente.
 
@@ -316,7 +316,7 @@ Quando elimini un post italiano:
 
 **Nota**: Non modificare manualmente i post o le immagini nel repository blog-en! Tutto viene gestito automaticamente dal workflow di traduzione.
 
-## âœï¸ ESEMPI DI FORMATTAZIONE MARKDOWN
+## ✏️ ESEMPI DI FORMATTAZIONE MARKDOWN
 
 Ecco alcuni esempi di formattazione che puoi usare nei post:
 
@@ -349,7 +349,7 @@ Ecco alcuni esempi di formattazione che puoi usare nei post:
 
 ### Citazioni
 ```markdown
-> Questa Ã¨ una citazione
+> Questa è una citazione
 ```
 
 ### Immagini nel Contenuto
@@ -357,54 +357,54 @@ Ecco alcuni esempi di formattazione che puoi usare nei post:
 ![Descrizione immagine](/assets/images/posts/nome-immagine.webp)
 ```
 
-## ðŸ”„ Workflow Completo
+## 🔄 Workflow Completo
 
 ### Creare un Nuovo Post
 
-1. âœï¸ Scrivi il post in Markdown
-2. ðŸ“ Salva il file in `_posts/` con il formato `YYYY-MM-DD-titolo.md`
-3. ðŸ–¼ï¸ (Opzionale) Aggiungi immagini in `assets/images/posts/`
-4. ðŸ’¾ Fai commit e push su GitHub
-5. â³ Attendi 1-2 minuti per la pubblicazione
-6. âœ… Il post appare sul **blog italiano**
-7. ðŸŒ Dopo altri 1-2 minuti, appare **tradotto automaticamente** sul blog inglese
+1. ✍️ Scrivi il post in Markdown
+2. 📁 Salva il file in `_posts/` con il formato `YYYY-MM-DD-titolo.md`
+3. 🖼️ (Opzionale) Aggiungi immagini in `assets/images/posts/`
+4. 💾 Fai commit e push su GitHub
+5. ⏳ Attendi 1-2 minuti per la pubblicazione
+6. ✅ Il post appare sul **blog italiano**
+7. 🌍 Dopo altri 1-2 minuti, appare **tradotto automaticamente** sul blog inglese
 
 ### Modificare un Post Esistente
 
-1. âœï¸ Modifica il file del post in `_posts/` (titolo, data, contenuto, immagini)
-2. ðŸ’¾ Fai commit e push su GitHub
-3. â³ Attendi 1-2 minuti
-4. âœ… Il post viene **aggiornato** sul blog italiano
-5. ðŸ”„ Il sistema **rileva la modifica** e aggiorna automaticamente:
+1. ✏️ Modifica il file del post in `_posts/` (titolo, data, contenuto, immagini)
+2. 💾 Fai commit e push su GitHub
+3. ⏳ Attendi 1-2 minuti
+4. ✅ Il post viene **aggiornato** sul blog italiano
+5. 🔄 Il sistema **rileva la modifica** e aggiorna automaticamente:
    - Il post inglese con contenuto tradotto aggiornato
    - Il filename inglese (se hai cambiato titolo o data)
    - Le immagini copiate nel blog inglese
 
 ### Eliminare un Post
 
-1. ðŸ—‘ï¸ Elimina il file del post da `_posts/`
-2. ðŸ’¾ Fai commit e push su GitHub
-3. â³ Attendi 1-2 minuti
-4. âœ… Il post viene **rimosso** dal blog italiano
-5. ðŸ”„ Il sistema elimina automaticamente:
+1. 🗑️ Elimina il file del post da `_posts/`
+2. 💾 Fai commit e push su GitHub
+3. ⏳ Attendi 1-2 minuti
+4. ✅ Il post viene **rimosso** dal blog italiano
+5. 🔄 Il sistema elimina automaticamente:
    - Il post inglese corrispondente
    - Le immagini associate (se non usate in altri post) da entrambi i blog
 **Metodo 1 - Form di Upload (consigliato):**
-1. ðŸ“¤ Vai su https://blog.The Lizards.thelizards.it/upload.html
-2. ðŸ” Inserisci la password
-3. ðŸ–¼ï¸ Seleziona e carica l'immagine (qualsiasi dimensione)
-4. â³ Attendi 1-2 minuti: viene ridimensionata (max 900x600px), convertita in WebP e compressa (~30-40KB)
-5. ðŸ“ Usa il nome WebP nel post
+1. 📤 Vai su https://blog.lizberries.thelizards.it/upload.html
+2. 🔐 Inserisci la password
+3. 🖼️ Seleziona e carica l'immagine (qualsiasi dimensione)
+4. ⏳ Attendi 1-2 minuti: viene ridimensionata (max 900x600px), convertita in WebP e compressa (~30-40KB)
+5. 📝 Usa il nome WebP nel post
 
 **Metodo 2 - Via GitHub:**
-1. ðŸ“¤ Carica l'immagine in `assets/images/posts/` tramite GitHub
-2. â³ Attendi 1-2 minuti: viene ottimizzata automaticamente (ridimensionamento + WebP + compressione)
-3. ðŸ“ Referenziala nel post usando `.webp` come estensione
+1. 📤 Carica l'immagine in `assets/images/posts/` tramite GitHub
+2. ⏳ Attendi 1-2 minuti: viene ottimizzata automaticamente (ridimensionamento + WebP + compressione)
+3. 📝 Referenziala nel post usando `.webp` come estensione
 
 **Metodo 2 - Via GitHub:**
-1. ðŸ“¤ Carica l'immagine in `assets/images/posts/` tramite GitHub
-2. â³ Attendi 1-2 minuti: viene convertita automaticamente in `.webp`
-3. ðŸ“ Referenziala nel post usando `.webp` come estensione
+1. 📤 Carica l'immagine in `assets/images/posts/` tramite GitHub
+2. ⏳ Attendi 1-2 minuti: viene convertita automaticamente in `.webp`
+3. 📝 Referenziala nel post usando `.webp` come estensione
 
 **Aggiornamento:**
 - Modifica l'immagine referenziata nel post italiano
@@ -414,9 +414,9 @@ Ecco alcuni esempi di formattazione che puoi usare nei post:
 **Eliminazione:**
 - Elimina il post che usa l'immagine
 - L'immagine viene cancellata automaticamente da entrambi i blog
-- Solo se non Ã¨ usata in altri post!
+- Solo se non è usata in altri post!
 
-## ðŸ“‹ Esempio Completo di Post
+## 📋 Esempio Completo di Post
 
 ```markdown
 ---
@@ -430,7 +430,7 @@ Siamo entusiasti di annunciare il nostro prossimo concerto a Milano!
 
 <!--more-->
 
-Il 20 dicembre 2025 saremo al **Fabrique** per una serata speciale dedicata ai brani piÃ¹ iconici dei Cranberries.
+Il 20 dicembre 2025 saremo al **Fabrique** per una serata speciale dedicata ai brani più iconici dei Cranberries.
 
 ## Dettagli dell'Evento
 
@@ -439,17 +439,17 @@ Il 20 dicembre 2025 saremo al **Fabrique** per una serata speciale dedicata ai b
 - **Luogo**: Fabrique, Milano
 - **Biglietti**: Disponibili su TicketOne
 
-Non vediamo l'ora di vedervi! ðŸŽ¸
+Non vediamo l'ora di vedervi! 🎸
 ```
 
-## â“ FAQ: Domande Frequenti
+## ❓ FAQ: Domande Frequenti
 
-### Come modifico un post giÃ  pubblicato?
+### Come modifico un post già pubblicato?
 
 1. Modifica il file in `_posts/` (puoi cambiare titolo, data, contenuto, immagini)
 2. Fai commit e push
-3. Il post verrÃ  aggiornato automaticamente **sia nel blog italiano che in quello inglese**
-4. Se hai modificato il titolo o la data, il post inglese verrÃ  rinominato automaticamente
+3. Il post verrà aggiornato automaticamente **sia nel blog italiano che in quello inglese**
+4. Se hai modificato il titolo o la data, il post inglese verrà rinominato automaticamente
 
 **Nota**: Non serve toccare il blog inglese, tutto viene sincronizzato automaticamente!
 
@@ -457,15 +457,15 @@ Non vediamo l'ora di vedervi! ðŸŽ¸
 
 1. Elimina il file dalla cartella `_posts/`
 2. Fai commit e push
-3. Il post verrÃ  rimosso **automaticamente** sia dal blog italiano che da quello inglese
+3. Il post verrà rimosso **automaticamente** sia dal blog italiano che da quello inglese
 4. Le immagini associate verranno cancellate da entrambi i blog (se non usate in altri post)
 ### Posso usare HTML nel post?
 
-SÃ¬! Markdown supporta anche HTML, quindi puoi usare tag HTML quando necessario.
+Sì! Markdown supporta anche HTML, quindi puoi usare tag HTML quando necessario.
 
 ### Posso programmare post per il futuro?
 
-SÃ¬! Puoi impostare una data futura nel front matter del post (es: `date: 2025-12-25`). Il post verrÃ  pubblicato automaticamente il giorno indicato. Fino a quella data, il post non sarÃ  visibile sul blog, ma sarÃ  giÃ  presente nel repository GitHub.
+Sì! Puoi impostare una data futura nel front matter del post (es: `date: 2025-12-25`). Il post verrà pubblicato automaticamente il giorno indicato. Fino a quella data, il post non sarà visibile sul blog, ma sarà già presente nel repository GitHub.
 
 ### Come vedo l'anteprima prima di pubblicare?
 
@@ -475,23 +475,23 @@ Puoi usare un editor Markdown online come:
 
 ### Come ottengo la password per il form di upload delle immagini?
 
-La password per il form di upload Ã¨ **riservata ai membri del team** che devono caricare immagini per i post. Contatta il team tecnico (Mattia) per ottenerla. La password Ã¨ configurata in modo sicuro sul server e non Ã¨ visibile pubblicamente.
+La password per il form di upload è **riservata ai membri del team** che devono caricare immagini per i post. Contatta il team tecnico (Mattia) per ottenerla. La password è configurata in modo sicuro sul server e non è visibile pubblicamente.
 
 ---
 
-## ðŸ›¡ï¸ Backup e Ripristino
+## 🛡️ Backup e Ripristino
 
 ### Sistema di Protezione Automatica
 
-Il blog Ã¨ protetto da un sistema di backup automatico che:
-- âœ… Crea un backup completo ogni giorno alle 03:00 UTC
-- âœ… Mantiene gli ultimi 30 giorni di backup
-- âœ… Permette ripristino rapido in caso di problemi
-- âœ… Salva tutta la storia delle modifiche (Git History)
+Il blog è protetto da un sistema di backup automatico che:
+- ✅ Crea un backup completo ogni giorno alle 03:00 UTC
+- ✅ Mantiene gli ultimi 30 giorni di backup
+- ✅ Permette ripristino rapido in caso di problemi
+- ✅ Salva tutta la storia delle modifiche (Git History)
 
 ### File Critici da NON Modificare
 
-**âš ï¸ ATTENZIONE**: Questi file sono essenziali per il funzionamento del blog. **Non modificarli** a meno che tu non sappia esattamente cosa stai facendo:
+**⚠️ ATTENZIONE**: Questi file sono essenziali per il funzionamento del blog. **Non modificarli** a meno che tu non sappia esattamente cosa stai facendo:
 
 - `_config.yml` - Configurazione principale
 - `.github/workflows/` - Automazioni (traduzione, ottimizzazione immagini, backup)
@@ -500,7 +500,7 @@ Il blog Ã¨ protetto da un sistema di backup automatico che:
 - `_layouts/` e `_includes/` - Template del sito
 - `CNAME` - Configurazione dominio
 
-**âœ… File che PUOI modificare liberamente:**
+**✅ File che PUOI modificare liberamente:**
 - `_posts/` - I tuoi post del blog
 - `assets/images/posts/` - Le immagini dei post
 - `README.md` - Questa documentazione (con cautela)
@@ -517,19 +517,19 @@ Se qualcosa va storto, consulta la **[Guida Completa al Ripristino](RIPRISTINO.m
 
 ---
 
-## ðŸ”§ Informazioni Tecniche (Solo per Amministratori)
+## 🔧 Informazioni Tecniche (Solo per Amministratori)
 
 ### Form di Upload Immagini
 
-Il sistema di upload Ã¨ implementato con:
-- **Frontend**: Form HTML accessibile su https://blog.The Lizards.thelizards.it/upload.html
-- **Backend**: Cloudflare Worker serverless (https://The Lizards-blog-upload.The Lizards.workers.dev)
+Il sistema di upload è implementato con:
+- **Frontend**: Form HTML accessibile su https://blog.lizberries.thelizards.it/upload.html
+- **Backend**: Cloudflare Worker serverless (https://lizberries-blog-upload.lizberries.workers.dev)
 - **Autenticazione**: Password protetta tramite variabile d'ambiente `UPLOAD_PASSWORD`
-- **Storage**: GitHub API - carica direttamente nel repository `theThe Lizards/blog`
+- **Storage**: GitHub API - carica direttamente nel repository `thelizberries/blog`
 - **Ottimizzazione immagini**:
   - Ridimensionamento automatico a max 900x600px (mantenendo proporzioni)
   - Conversione in formato WebP
-  - Compressione con qualitÃ  75 e metodo 6 (massima compressione)
+  - Compressione con qualità 75 e metodo 6 (massima compressione)
   - Dimensione finale: ~30-40KB per caricamento rapido
 - **Sicurezza**: 
   - Validazione formato file server-side
@@ -543,15 +543,15 @@ Il sistema di upload Ã¨ implementato con:
   - Zero downtime
 
 **Configurazione variabili d'ambiente su Cloudflare**:
-1. Dashboard Cloudflare: Workers & Pages â†’ The Lizards-blog-upload â†’ Settings â†’ Variables
-2. `UPLOAD_PASSWORD`: Password per il form di upload â†’ Encrypt â†’ Save
-3. `GITHUB_TOKEN`: Personal Access Token con scope `repo` (token name "Blog Image Upload") â†’ Encrypt â†’ Save
+1. Dashboard Cloudflare: Workers & Pages → lizberries-blog-upload → Settings → Variables
+2. `UPLOAD_PASSWORD`: Password per il form di upload → Encrypt → Save
+3. `GITHUB_TOKEN`: Personal Access Token con scope `repo` (token name "Blog Image Upload") → Encrypt → Save
 
 **Manutenzione**:
-- Per cambiare la password: Cloudflare Dashboard â†’ Workers & Pages â†’ The Lizards-blog-upload â†’ Settings â†’ Variables
+- Per cambiare la password: Cloudflare Dashboard → Workers & Pages → lizberries-blog-upload → Settings → Variables
 - Per rigenerare il token GitHub: https://github.com/settings/tokens
-- Per modificare il codice: Cloudflare Dashboard â†’ Workers & Pages â†’ The Lizards-blog-upload â†’ Edit Code
+- Per modificare il codice: Cloudflare Dashboard → Workers & Pages → lizberries-blog-upload → Edit Code
 
 ---
 
-Per qualsiasi dubbio o problema, contatta il team tecnico (Mattia)! ðŸŽµ
+Per qualsiasi dubbio o problema, contatta il team tecnico (Mattia)! 🎵

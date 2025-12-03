@@ -1,10 +1,10 @@
-﻿# ðŸ›¡ï¸ Guida al Ripristino del Blog
+# 🛡️ Guida al Ripristino del Blog
 
 Questa guida ti spiega come ripristinare il blog in caso di modifiche accidentali o problemi.
 
 ---
 
-## ðŸ“‹ Indice
+## 📋 Indice
 
 1. [Ripristino di un Singolo File](#ripristino-di-un-singolo-file)
 2. [Ripristino da Backup Giornaliero](#ripristino-da-backup-giornaliero)
@@ -14,21 +14,21 @@ Questa guida ti spiega come ripristinare il blog in caso di modifiche accidental
 
 ---
 
-## ðŸ”§ Ripristino di un Singolo File
+## 🔧 Ripristino di un Singolo File
 
-### Scenario: Un file Ã¨ stato modificato o cancellato per errore
+### Scenario: Un file è stato modificato o cancellato per errore
 
-**Metodo 1: Via GitHub Web (piÃ¹ semplice)**
+**Metodo 1: Via GitHub Web (più semplice)**
 
-1. Vai su https://github.com/theThe Lizards/blog
+1. Vai su https://github.com/thelizberries/blog
 2. Clicca sul file che vuoi ripristinare (o naviga nella cartella dove era)
 3. Clicca su "History" (in alto a destra)
 4. Trova la versione corretta del file
-5. Clicca sui tre puntini `...` â†’ "View file"
+5. Clicca sui tre puntini `...` → "View file"
 6. Copia il contenuto
-7. Torna al file attuale â†’ "Edit" â†’ Incolla â†’ "Commit changes"
+7. Torna al file attuale → "Edit" → Incolla → "Commit changes"
 
-**Metodo 2: Via Git Locale (piÃ¹ veloce)**
+**Metodo 2: Via Git Locale (più veloce)**
 
 ```bash
 # 1. Vai nella cartella del blog
@@ -63,7 +63,7 @@ git checkout HEAD -- path/to/file
 
 ---
 
-## ðŸ“¦ Ripristino da Backup Giornaliero
+## 📦 Ripristino da Backup Giornaliero
 
 ### Scenario: Hai bisogno di ripristinare il blog a una data specifica
 
@@ -114,7 +114,7 @@ git push origin main
 **Passo 3b: Ripristina TUTTO dal backup (ATTENZIONE!)**
 
 ```bash
-# âš ï¸ ATTENZIONE: Questo sovrascrive TUTTO sul branch main!
+# ⚠️ ATTENZIONE: Questo sovrascrive TUTTO sul branch main!
 
 # 1. Crea un branch temporaneo dal backup
 git checkout backup/2025-11-19
@@ -136,9 +136,9 @@ git branch -d restore-from-backup-2025-11-19
 
 ---
 
-## ðŸš¨ Ripristino Completo del Repository
+## 🚨 Ripristino Completo del Repository
 
-### Scenario ESTREMO: Il repository Ã¨ gravemente danneggiato
+### Scenario ESTREMO: Il repository è gravemente danneggiato
 
 **Opzione 1: Ripristino da Backup Cloud GitHub**
 
@@ -147,10 +147,10 @@ git branch -d restore-from-backup-2025-11-19
 mv blog blog-danneggiato
 
 # 2. Clona nuovamente il repository
-git clone https://github.com/theThe Lizards/blog.git
+git clone https://github.com/thelizberries/blog.git
 cd blog
 
-# 3. Se anche il repository remoto Ã¨ danneggiato, usa il backup
+# 3. Se anche il repository remoto è danneggiato, usa il backup
 git fetch --all
 git checkout backup/2025-11-20
 git checkout -b main-restored
@@ -163,36 +163,36 @@ git push --force origin main-restored:main
 # Se hai fatto backup locali in altre cartelle
 cp -r /path/to/backup/blog ./blog-restored
 cd blog-restored
-git remote add origin https://github.com/theThe Lizards/blog.git
+git remote add origin https://github.com/thelizberries/blog.git
 git push --force origin main
 ```
 
 ---
 
-## ðŸ‘¥ Verifica Permessi Collaboratori
+## 👥 Verifica Permessi Collaboratori
 
 ### Come verificare che i collaboratori abbiano permessi corretti
 
 **Via GitHub Web:**
 
-1. Vai su https://github.com/theThe Lizards/blog/settings/access
+1. Vai su https://github.com/thelizberries/blog/settings/access
 2. Verifica che i collaboratori abbiano ruolo **"Write"** (non "Admin")
 3. Solo tu dovresti avere ruolo "Admin" o "Owner"
 
 **Permessi corretti:**
-- âœ… **Write**: Possono aggiungere/modificare contenuti, NON possono modificare impostazioni
-- âŒ **Admin**: Possono fare TUTTO, incluso cancellare il repository
-- âŒ **Maintain**: PiÃ¹ permessi del necessario
+- ✅ **Write**: Possono aggiungere/modificare contenuti, NON possono modificare impostazioni
+- ❌ **Admin**: Possono fare TUTTO, incluso cancellare il repository
+- ❌ **Maintain**: Più permessi del necessario
 
 **Per modificare i permessi:**
-1. Vai su Settings â†’ Collaborators
+1. Vai su Settings → Collaborators
 2. Clicca sull'ingranaggio accanto al nome del collaboratore
 3. Seleziona "Write" dal menu a tendina
 4. Salva
 
 ---
 
-## ðŸ“ File Critici da Proteggere
+## 📁 File Critici da Proteggere
 
 ### File che NON dovrebbero essere modificati dai collaboratori
 
@@ -219,18 +219,18 @@ git push --force origin main
 - `CNAME` - Configurazione dominio personalizzato
 
 **Contenuti modificabili liberamente:**
-- âœ… `_posts/` - Post del blog (OK modificare)
-- âœ… `assets/images/posts/` - Immagini dei post (OK modificare)
-- âœ… `README.md` - Documentazione (OK modificare con cautela)
+- ✅ `_posts/` - Post del blog (OK modificare)
+- ✅ `assets/images/posts/` - Immagini dei post (OK modificare)
+- ✅ `README.md` - Documentazione (OK modificare con cautela)
 
 ---
 
-## ðŸ” Come Controllare le Modifiche Recenti
+## 🔍 Come Controllare le Modifiche Recenti
 
-### Verifica cosa Ã¨ stato modificato di recente
+### Verifica cosa è stato modificato di recente
 
 **Via GitHub Web:**
-1. Vai su https://github.com/theThe Lizards/blog/commits/main
+1. Vai su https://github.com/thelizberries/blog/commits/main
 2. Vedi tutti i commit recenti con autore, data, file modificati
 
 **Via Git Locale:**
@@ -251,7 +251,7 @@ git log --follow -- path/to/file
 
 ---
 
-## âš¡ Comandi Rapidi di Emergenza
+## ⚡ Comandi Rapidi di Emergenza
 
 ```bash
 # ANNULLA l'ultimo commit (non ancora pushato)
@@ -274,11 +274,11 @@ git diff main..backup/2025-11-20
 
 ---
 
-## ðŸ“ž In Caso di Emergenza
+## 📞 In Caso di Emergenza
 
 Se qualcosa va storto e non sai come risolvere:
 
-1. **NON FARE PANIC** - Git salva tutto, nulla Ã¨ veramente perso
+1. **NON FARE PANIC** - Git salva tutto, nulla è veramente perso
 2. **NON FARE altri push** - Ferma le modifiche
 3. **Controlla i backup disponibili**: `git branch -r | grep backup`
 4. **Contatta Mattia** - Meglio chiedere che rischiare di peggiorare
@@ -286,7 +286,7 @@ Se qualcosa va storto e non sai come risolvere:
 
 ---
 
-## ðŸŽ¯ Checklist di Sicurezza
+## 🎯 Checklist di Sicurezza
 
 - [ ] Backup automatico attivo (controlla che il workflow giri ogni giorno)
 - [ ] Collaboratori hanno permessi "Write" (non "Admin")
@@ -298,5 +298,4 @@ Se qualcosa va storto e non sai come risolvere:
 ---
 
 **Ultimo aggiornamento**: Novembre 2025  
-**Autore**: Mattia (Team Tecnico The Lizards)
-
+**Autore**: Mattia (Team Tecnico Lizberries)

@@ -1,4 +1,4 @@
-﻿name = "thelizards-blog-upload"
+name = "lizberries-blog-upload"
 main = "workers/upload.js"
 compatibility_date = "2024-01-01"
 

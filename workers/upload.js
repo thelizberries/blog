@@ -1,4 +1,4 @@
-﻿// Cloudflare Worker per gestire upload immagini e creazione post su GitHub
+// Cloudflare Worker per gestire upload immagini e creazione post su GitHub
 // Gestisce autenticazione con password e upload sicuro
 
 export default {
@@ -44,7 +44,7 @@ export default {
       // GitHub API setup
       const GITHUB_TOKEN = env.GITHUB_TOKEN;
       const GITHUB_OWNER = 'thelizberries';
-      const GITHUB_REPO = 'blog';
+      const GITHUB_REPO = 'blog-lizberries';
 
       // Route basato sull'action
       if (action === 'upload_image') {
@@ -52,7 +52,7 @@ export default {
       } else if (action === 'create_post') {
         return await handlePostCreation(requestData, GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO, corsHeaders);
       } else {
-        // Compatibilità  con vecchia versione (senza action)
+        // Compatibilità con vecchia versione (senza action)
         return await handleImageUpload(requestData, GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO, corsHeaders);
       }
 
@@ -93,7 +93,7 @@ async function handleImageUpload(data, GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO, 
 
   const GITHUB_PATH = `assets/images/posts/${filename}`;
 
-  // Verifica se il file esiste già 
+  // Verifica se il file esiste già
   const checkUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${GITHUB_PATH}`;
   const checkResponse = await fetch(checkUrl, {
     headers: {
