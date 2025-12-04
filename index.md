@@ -1,5 +1,0 @@
-﻿---
-layout: home
-title: "The Lizards Blog"
-lang: "it"
----
