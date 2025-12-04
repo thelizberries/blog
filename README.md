@@ -1,6 +1,6 @@
-# Lizberries Blog - Guida per la Creazione dei Post
+# The Lizards Blog - Guida per la Creazione dei Post
 
-Benvenuto nella guida per creare e pubblicare post sul blog dei Lizberries! Questa guida ti accompagnerà passo dopo passo nella creazione di nuovi articoli.
+Benvenuto nella guida per creare e pubblicare post sul blog dei The Lizards! Questa guida ti accompagnerà passo dopo passo nella creazione di nuovi articoli.
 
 ---
 
@@ -92,8 +92,8 @@ Se preferisci caricare solo le immagini separatamente (senza creare il post):
 ## 📝 Struttura del Blog
 
 Il blog è costruito con Jekyll e GitHub Pages. I post vengono scritti in formato Markdown e pubblicati automaticamente su:
-- **Blog Italiano**: https://blog.lizberries.thelizards.it
-- **Blog Inglese**: https://blog-en.lizberries.thelizards.it (tradotto automaticamente)
+- **Blog Italiano**: https://blog.thelizards.it
+- **Blog Inglese**: https://blog-en.thelizards.it (tradotto automaticamente)
 
 ## 🚀 Come Creare un Nuovo Post
 
@@ -170,7 +170,7 @@ Il tag `<!--more-->` separa l'anteprima (excerpt) dal resto del contenuto:
 
 **Il modo più semplice per caricare immagini:**
 
-1. **Vai su**: https://blog.lizberries.thelizards.it/upload.html
+1. **Vai su**: https://blog.thelizards.it/upload.html
 2. **Inserisci la password** (richiedila al team tecnico se non ce l'hai)
 3. **Seleziona l'immagine** dal tuo computer
    - Formati supportati: `.jpg`, `.jpeg`, `.png`
@@ -216,7 +216,7 @@ Il tag `<!--more-->` separa l'anteprima (excerpt) dal resto del contenuto:
 
 ### Immagine di Default
 
-Se non specifichi un'immagine, verrà usato automaticamente il logo dei Lizberries.
+Se non specifichi un'immagine, verrà usato automaticamente il logo dei The Lizards.
 
 ## 📤 Pubblicare il Post
 
@@ -523,9 +523,9 @@ Se qualcosa va storto, consulta la **[Guida Completa al Ripristino](RIPRISTINO.m
 
 Il sistema di upload è implementato con:
 - **Frontend**: Form HTML accessibile su https://blog.lizberries.thelizards.it/upload.html
-- **Backend**: Cloudflare Worker serverless (https://lizberries-blog-upload.lizberries.workers.dev)
+- **Backend:** Cloudflare Worker serverless (https://thelizards-blog-upload.lizberries.workers.dev)
 - **Autenticazione**: Password protetta tramite variabile d'ambiente `UPLOAD_PASSWORD`
-- **Storage**: GitHub API - carica direttamente nel repository `thelizberries/blog`
+- **Storage:** GitHub API - carica direttamente nel repository `thelizberries/blog-thelizards`
 - **Ottimizzazione immagini**:
   - Ridimensionamento automatico a max 900x600px (mantenendo proporzioni)
   - Conversione in formato WebP
@@ -543,14 +543,14 @@ Il sistema di upload è implementato con:
   - Zero downtime
 
 **Configurazione variabili d'ambiente su Cloudflare**:
-1. Dashboard Cloudflare: Workers & Pages → lizberries-blog-upload → Settings → Variables
+1. Dashboard Cloudflare: Workers & Pages → thelizards-blog-upload → Settings → Variables
 2. `UPLOAD_PASSWORD`: Password per il form di upload → Encrypt → Save
 3. `GITHUB_TOKEN`: Personal Access Token con scope `repo` (token name "Blog Image Upload") → Encrypt → Save
 
 **Manutenzione**:
-- Per cambiare la password: Cloudflare Dashboard → Workers & Pages → lizberries-blog-upload → Settings → Variables
+- **Per cambiare la password**: Cloudflare Dashboard → Workers & Pages → thelizards-blog-upload → Settings → Variables
 - Per rigenerare il token GitHub: https://github.com/settings/tokens
-- Per modificare il codice: Cloudflare Dashboard → Workers & Pages → lizberries-blog-upload → Edit Code
+- **Per modificare il codice**: Cloudflare Dashboard → Workers & Pages → thelizards-blog-upload → Edit Code
 
 ---
 
