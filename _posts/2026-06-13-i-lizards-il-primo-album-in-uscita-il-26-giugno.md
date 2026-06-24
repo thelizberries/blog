@@ -5,8 +5,7 @@ date: 2026-06-13
 description: "Il 26 giugno esce il primo album dei Lizards, pubblicato con Sorry Mom Records. Scopri i singoli Lying e Like Eagles!"
 image: /assets/images/posts/IMG_2027.webp
 ---
-I LIZARDS ANNUNCIANO IL LORO PRIMO ALBUM DISPONIBILE DAL
-26 GIUGNO
+## I Lizards: primo album ufficiale in uscita il 26 giugno con Sorry Mom Records
 
 <!--more-->
 
@@ -18,7 +17,7 @@ dal punto di partenza al punto di arrivo, racchiude infatti tutti i singoli pubb
 anni.
 
 
-LA NOSTRA MUSICA E LE SUE SFUMATURE
+## Il sound dei Lizards: dai singoli Lying e Like Eagles all'album completo
 
 L'album racchiude tutte le sfumature che caratterizzano il sound dei Lizards, dai brani più
 energici e potenti a quelli più delicati.
@@ -26,32 +25,30 @@ Ad anticiparne l'uscita è il singolo "Lying", brano intenso e coinvolgente che 
 spirito del progetto, e all'interno troverete anche un secondo inedito, "Like Eagles", canzone
 che occupa un posto speciale nel nostro cuore e che non vediamo l'ora di farvi ascoltare.
 
-Track list: 
+### Tracklist completa del primo album
 
 1  Full Of Dreams Suitcase
 
-2    In An Awful Winter Day 
+2   In An Awful Winter Day
 
-3    Wake Up Now!
+3   Wake Up Now!
 
- 4    Whispers In The Dark 
+4   Whispers In The Dark
 
-5    Strange Dream 
+5   Strange Dream
 
-6    Road 
+6   Road
 
-7    Lying 
+7   Lying
 
-8    Hide Me 
+8   Hide Me
 
-9    Like Eagles 
+9   Like Eagles
 
-10    Rainbow
-
-
+10  Rainbow
 
 
-NON SOLO SEMPLICI CANZONI
+## Temi e ispirazioni: un viaggio interiore tra Cranberries, Depeche Mode e Coldplay
 
 Questo disco non è solo una semplice raccolta di canzoni, ma un vero e proprio viaggio
 interiore che racconta il nostro percorso fatto di fragilità, dubbi, speranze, cambiamenti e
@@ -62,9 +59,9 @@ A farci da ispirazione sono artisti che hanno segnato la storia della musica con
 come i Cranberries, i Depeche Mode e i Coldplay.
 
 
-PRONTI PER QUESTO NUOVO CAPITOLO
+## Ascolta il primo album dei Lizards su tutte le piattaforme digitali
 
 Dal 26 giugno il disco sarà disponibile su tutte le piattaforme digitali, non vediamo l'ora di
 condividere con voi questo nuovo inizio e rendervi partecipi di un nuovo capitolo della nostra
 storia.
-Benvenuti nel mondo dei Lizard
+Benvenuti nel mondo dei The Lizards
