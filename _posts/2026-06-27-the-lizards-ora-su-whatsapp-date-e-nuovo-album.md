@@ -20,7 +20,8 @@ Date dei concerti, eventi speciali, iniziative dedicate ai fan, viaggi musicali,
 
 ## Unitevi a noi
 
-Siamo orgogliosi di questo nuovo modo di comunicare e speriamo ci aiuti a sentirci ancora più vicini alla nostra splendida comunità di appassionati. Per unirvi basta un clic: <a href="https://wa.me/390239282734" rel="noopener" target="_blank" title="Unisciti al canale WhatsApp dei Lizards">scrivici su WhatsApp</a>. Vi aspettiamo.
+Siamo orgogliosi di questo nuovo modo di comunicare e speriamo ci aiuti a sentirci ancora più vicini alla nostra splendida comunità di appassionati. Per unirvi basta un clic: <a href="https://wa.me/390239282734" rel="noopener" target="_blank" title="Unisciti al canale WhatsApp dei Lizards">scrivici su WhatsApp</a>. 
+Vi aspettiamo.
 
 Un grazie speciale a chi ci ha seguito in questi anni e a chi sceglierà di continuare questo viaggio insieme a noi. Il vostro affetto e il vostro sostegno sono la forza che ci spinge a creare sempre nuovi progetti e nuove avventure musicali.
 
